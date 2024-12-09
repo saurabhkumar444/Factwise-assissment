@@ -1,0 +1,24 @@
+.custom-select-container .select-form-label {
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  align-items: flex-start;
+  display: flex;
+  color: gray;
+}
+
+.custom-select-container .form-select-input {
+  overflow: auto;
+  height: 42px !important;
+  min-height: 36px !important;
+  align-items: center;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  border-color: #1d1b2040 !important;
+  box-shadow: 0px 1px 4px 0px #4a4fc440 inset;
+  width: 100%;
+}
+
+.custom-select-container {
+  display: block;
+  flex-direction: column;
+}
